@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  transition:all .2s linear;
+}
+
+
+    body{
+      background:#fcf8f8;
+    }
+  
+    #signupBox{
+        width: 800px;
+        height: 550px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-width: 0.5px;
+        border-radius: 10px;
+        color:rgb(87, 79, 79);
+    } 
+    
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 40px;
+        font-weight: 550;
+        color: #ff3838;
+        text-align: center;
+        padding-top: 30px; 
+        padding-bottom: 5px;
+      }
+
+      
+    p1{
+        font-size: 20px;
+        padding-left: 33%;
+      }
+
+      label{
+        font-size: 15px;
+        margin: 0;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 35%;
+        padding-bottom: 5px;
+        font-weight: bold;
+      }
+  
+      .signUpInput{
+        font-size: 15px; 
+        margin-left: 35%;
+        position: relative;
+        border-style: none;
+        border-bottom: 1px solid grey;
+        outline: none;
+        height: 28px;
+        width: 250px;
+        display:inline-block; 
+      }
+  
+      .signUpInput:focus{
+        top: -5px;
+        border-bottom: 2px solid #ff3838;
+      }
+
+      #submit {
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 35%;
+        height: 40px;
+        width: 260px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid #ff3838; 
+        border-radius: 5px;
+        color:#666;
+        background-color: #ffffff;
+        mask-border-width: 10px;
+        box-shadow: 0 6px rgb(197, 191, 191);
+      }
+      
+      #submit:hover {
+        color: #fff;
+        background-color: #ff3838;
+      }
+      
+      #submit:active {
+        background-color: #ff3838;
+        box-shadow: 0 5px #666;
+        transform: translateY(10px);
+      }
+    
+      a{
+        color: #ff3838;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 40%;
+      }
+      
