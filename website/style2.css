@@ -1,0 +1,109 @@
+/*#form{
+    width:500px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    border-color: brown;
+    border-style: dashed;
+    border-radius: 5rem;
+    border-width:3px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  
+  }*/
+
+  .container {
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+  
+    display: block;
+    position: relative;
+    border:  6px solid #ee6060;
+    padding: 40px 60px;
+    margin: 100px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+  }
+  
+  .container:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  }
+  
+.container:hover .border {
+    transform: translateY(4px) rotate(-5deg);
+  }
+  
+  .border {
+    position: absolute;
+    transition: all 0.13s ease-in;
+  }
+  
+  .border:before,
+  .border:after {
+    color: #515d9c;
+    font-size: 15px;
+    position: absolute;
+  }
+  input[type=submit] {
+    background-color: #ee6060;
+    border-radius: 5rem;
+    width:250px;
+    border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  
+.input-wrapper{
+    display:flex;
+    align-items: center;
+    margin-left: 20rem;
+    text-align: center;
+    justify-content: center;
+    width:500px;
+    background: #b86874;
+    box-shadow:0.25rem 0.25rem 0.2rem lightpink;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    color:lightpink;
+}
+
+input{
+    margin:0 0.5rem 0 0.5rem;
+    width:100%;
+    padding-left:1rem;
+    border:none;
+    outline: none;
+    background: #b86874;
+}
+
+::placeholder{
+    color:lightpink;
+}
+
+select{
+    border:none;
+    outline: none;
+}
+
+.form-select{
+    display :flex;
+    align-items: center;
+    margin-left: 20rem;
+    width:500px;
+    background: #b86874;
+    box-shadow:0.25rem 0.25rem 0.2rem lightpink;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    color:lightpink;
+}
