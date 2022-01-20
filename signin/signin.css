@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --red:#ff3838; 
+}
+  
+  *{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition:all .2s linear;
+  }
+  
+  *::selection{
+    background:var(--red);
+    color:#fff;
+  }
+  html{
+      font-size: 62.5%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      scroll-padding-top: 6rem;
+    }
+    
+    body{
+      background:#fcf8f8;
+    }
+    
+    section{
+      padding:2rem 9%;
+    }
+    
+    .heading{
+      text-align: center;
+      font-size: 3.5rem;
+      padding:1rem;
+      color:#666;
+    }
+    
+    .heading span{
+      color:var(--red);
+    }
+    
+   
+    header{
+      position: relative;
+      top:0; left: 0; right:0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:2rem 9%;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+    
+    header .logo{
+      font-size: 2.5rem;
+      font-weight: bolder;
+      color:#666;
+    }
+    
+    header .logo i{
+      padding-right: .5rem;
+      color:var(--red);
+    }
+    
+    header .navbar a{
+      font-size: 2rem;
+      margin-left: 2rem;
+      color:#666; 
+    }
+    
+    header .navbar a:hover{
+      color:var(--red);
+    }
+    
+    #menu-bar{
+      font-size: 3rem;
+      cursor: pointer;
+      color:#666;
+      border:.1rem solid #666;
+      border-radius: .3rem;
+      padding:.5rem 1.5rem;
+      display: none;
+    }
+ 
+     #signinBox{
+        width: 800px;
+        height: 470px;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-width: 0.5px;
+        border-radius: 10px;
+        color:rgb(87, 79, 79);
+    } 
+
+    h1{
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      font-weight: 550;
+      color: #ff3838;
+      text-align: center;
+      padding-top: 30px; 
+      padding-bottom: 5px;
+    }
+
+    p1{
+      font-size: 20px;
+      padding-left: 12%;
+    }
+
+    label{
+      font-size: 15px;
+      margin: 0;
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 35%;
+      padding-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .signInInput{
+      font-size: 15px; 
+      margin-left: 35%;
+      position: relative;
+      border-style: none;
+      border-bottom: 1px solid grey;
+      outline: none;
+      height: 28px;
+      width: 250px;
+      display:inline-block; 
+    }
+
+    .signInInput:focus{
+      top: -5px;
+      border-bottom: 2px solid #ff3838;
+    }
+
+    i{
+      color: #666;
+    }
+
+    #submit {
+      display: inline-block;
+      font-size: 15px;
+      margin-left: 35%;
+      height: 40px;
+      width: 260px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid #ff3838; 
+      border-radius: 5px;
+      color:#666;
+      background-color: #ffffff;
+      mask-border-width: 10px;
+      box-shadow: 0 6px rgb(197, 191, 191);
+    }
+    
+    #submit:hover {
+      color: #fff;
+      background-color: #ff3838;
+    }
+    
+    #submit:active {
+      background-color: #ff3838;
+      box-shadow: 0 5px #666;
+      transform: translateY(10px);
+    }
+
+    p2{
+      font-size: 15px;
+      margin-left: 31%;
+    }
+    
+    a{
+      color: #ff3838;
+      font-weight: 600;
+    }
+    
+
+   
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+    
+    
